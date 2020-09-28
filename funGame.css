@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#playGround{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border: 2px solid black;
+    background-color: red;
+    position: relative;
+}
+
+#victim{
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    background-image: url(image/main-qimg-a7e00ea72a58fc946cdfec337f32a900.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+#players{
+    font-family: 'game';
+    font-size: 50px;
+    border: 3px solid black;
+    width: 500px;
+    background-color: darksalmon;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+@font-face{
+    src: url(nintendo_ds_bios/Nintendo-DS-BIOS.ttf);
+    font-family: 'game';
+}
+
+button{
+    height: 70px;
+    width: 100px;
+    font-family: 'game';
+    font-size: 2rem;  
+    background-color: darksalmon;  
+ 
+}
+
+#restart{
+    margin-top: 20px;
+    text-align: center;
+}
